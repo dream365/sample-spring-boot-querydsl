@@ -1,10 +1,12 @@
 package com.sewonko.sample.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
 
 @Data
+@Builder
 @Entity
 @Table(name = "HOME_ADDRESS")
 public class HomeAddress {

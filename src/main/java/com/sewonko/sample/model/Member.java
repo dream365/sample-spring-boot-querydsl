@@ -1,5 +1,6 @@
 package com.sewonko.sample.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -7,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@Builder
 @Entity
 @Table(name = "MEMBER")
 public class Member {
